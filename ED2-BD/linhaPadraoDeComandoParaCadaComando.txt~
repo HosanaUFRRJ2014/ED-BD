@@ -1,0 +1,10 @@
+projecao : projecao("campo 1 campo2 ...", relacao(<parametros>))
+criar indice : indice(<arvoreB ou hash>, <nomeIdentificador>, <campoChave>, <caminho do arquivo de origem>)
+uniao : uniao(relacao1(<parametros>), relacao2(<paramentros>))
+diferenca : diferenca(relacao1(<parametros>), relacao2(<paramentros>))
+intersecao : intersecao(relacao1(<parametros>), relacao2(<paramentros>))
+selecao : selecao(campo = "valor", relacao(<parametros>))
+
+
+ideia para a renomeação : colocar em todas as classes (ou na interpreter e ter um metodo de troca de nome da tupla implementavel para todas as classes filhas) um padrão de nomes dos campos das tuplas para alterar o nome do campo de toda tupla antes de enviar pelo next
+
